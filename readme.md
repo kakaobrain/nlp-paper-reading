@@ -9,7 +9,7 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
-
+- 2020.07.29 [Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks](notes/Dont_Stop_Pretraining.md)
 - 2020.07.22 [Balancing Training for Multilingual NMT](notes//Balancing_Training_for_Multilingual_NMT.md)
 - 2020.07.22 [TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data](notes//TaBERT.md)
 - 2020.07.15 [Optimizing Data Usage via Differentiable Rewards](notes/Optimizing_Data_Usage_via_Differentiable_Rewards.md)
