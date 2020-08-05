@@ -31,10 +31,10 @@
   - **Mention Identification and Classification**: Token Representation들을 CRF에 태워 *identify-then-classify*
   - **Salient Mention Classification**: 앞서 추출된 Mention들이 문서에서 중요한지 판별
   - **Pairwise Coreferece Resolution**: 추출된 Mention들 간 Coreferring 하는지 판별
-  - **Mention Clustering**: Coreference Score 높은 Mention들 간 [Hierarchical Clustering]([https://ratsgo.github.io/machine%20learning/2017/04/18/HC/](https://ratsgo.github.io/machine learning/2017/04/18/HC/))
+  - **Mention Clustering**: Coreference Score 높은 Mention들 간 [Hierarchical Clustering](https://ratsgo.github.io/machine%20learning/2017/04/18/HC/)
   - **Relation Extraction**: Cluster 간 4-ary Relation 여부 판별 *(4개 엔티티가 동일 문서에서 나타날 것들인가?)*
 - 데이터셋 구축은 **SCIERC**에 대해 훈련된 **SciBERT**를 활용해 **Mention Candidate** 들을 다 뽑아낸 후, *(high Recall)*
-- Candidate이 해당 문서에서 실제로 Entity 역할을 수행하는 Span인지 사람이 검수하는 과정을 거침: [가이드라인]([https://github.com/allenai/SciREX/blob/master/Annotation%20Guidelines.pdf](https://github.com/allenai/SciREX/blob/master/Annotation Guidelines.pdf))
+- Candidate이 해당 문서에서 실제로 Entity 역할을 수행하는 Span인지 사람이 검수하는 과정을 거침: [가이드라인](https://github.com/allenai/SciREX/blob/master/Annotation%20Guidelines.pdf)
 
 ```python
 # Jaccard Similarity 활용해 Mention 걸러주는 로직 (to preserve minimum precision)
