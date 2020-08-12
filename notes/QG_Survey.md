@@ -1,6 +1,6 @@
 ﻿# Survey of Question Generation
 
-![](https://github.com/kakaobrain/nlp-paper-reading/tree/master/images/QG_Survey/title.png)
+![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/QG_Survey/title.png)
 
 ## Introduction
 - 질문 생성 (QG)는 Raw Text, Database 또는 Semantic Representation, Image 등의 입력 소스에서 질문을 생성하는 작업 (Rus et al. 2008)
@@ -46,7 +46,7 @@
     4. 정답이 주어지지 않는 경우, 모델이 스스로 학습해야함 (Only Context Given)
     - 자세한 사항은 아래 표에 정리되어있음
 
-![image](https://github.com/kakaobrain/nlp-paper-reading/tree/master/images/QG_Survey/corpora_table.png)
+![image](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/QG_Survey/corpora_table.png)
 
 ## Evaluation Metric
 - 데이터셋은 일반적으로 QG와 QA간에 공유되지만 Metric은 전혀 다름
