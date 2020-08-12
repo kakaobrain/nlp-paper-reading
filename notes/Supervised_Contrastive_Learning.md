@@ -19,7 +19,7 @@
 
 ## Supervised Contrastive Learning
 
-![image-20200812111221624](/Users/chloe/Documents/nlp-paper-reading/images/Supervised_Contrastive_Learning/figure2.png)
+![image-20200812111221624](../images/Supervised_Contrastive_Learning/figure2.png)
 
 - Anchor에 대해서 같은 class의 sample은 잡아당기고, 다른 class의 sample은 밀어내도록 학습
 - 기존 self-supervised contrastive learning 방법에서는 대개 single positive를 썼는데, 여기서는 multiple positives 를 사용
@@ -40,14 +40,14 @@
 
 ##### Self-supervised Contrastive Loss
 
-![image-20200812112903855](/Users/chloe/Documents/nlp-paper-reading/images/Supervised_Contrastive_Learning/self_supervised_contrastive_loss.png)
+![image-20200812112903855](../images/Supervised_Contrastive_Learning/self_supervised_contrastive_loss.png)
 
 - i: anchor, j(i): positive, 나머지: negatives
 - 분자를 키우고 분모를 줄여야 함
 
 ##### Supervised Contrastive Loss
 
-![image-20200812113048945](/Users/chloe/Documents/nlp-paper-reading/images/Supervised_Contrastive_Learning/supervised_contrastive_loss.png)
+![image-20200812113048945](../images/Supervised_Contrastive_Learning/supervised_contrastive_loss.png)
 
 - Batch 내의 모든 positives가 분자에 contribute
 - Self-supervised contrastive loss에서 알려져 있듯이 negative sample 갯수가 늘어날 수록 improve
@@ -57,9 +57,9 @@
 - Hard positives/negatives이 weak samples보다 gradient를 더 많이 준다.
 - w가 normalization 이전의 projection network output일 때 
 
-![image-20200812113803018](/Users/chloe/Documents/nlp-paper-reading/images/Supervised_Contrastive_Learning/gradient_1.png)
+![image-20200812113803018](../images/Supervised_Contrastive_Learning/gradient_1.png)
 
-![image-20200812113834848](/Users/chloe/Documents/nlp-paper-reading/images/Supervised_Contrastive_Learning/gradient_2.png)
+![image-20200812113834848](../images/Supervised_Contrastive_Learning/gradient_2.png)
 
 - Easy positive z_i • z_j ≈ 1 이면 P_ij가 커지므로 gradient≈0
 - Hard positive z_i • z_j ≈ 0 이면 P_ij가 moderate 해지므로 gradient > 0
@@ -69,7 +69,7 @@
 - SupContrast 학습 후에 projection head를 randomly initialized linear dense로 바꿔치기 하였음
 - Embedding network는 freeze 된 상태로 cross entropy 학습
 
-![image-20200812114604207](/Users/chloe/Documents/nlp-paper-reading/images/Supervised_Contrastive_Learning/table_1.png)
+![image-20200812114604207](../images/Supervised_Contrastive_Learning/table_1.png)
 
 - SOTA 달성. CutMix, AA 보다는 약간 향상되었음.
 - CutMix나 MixUp 같은 친구들을 supervised contrastive learning에도 쓸 수 있을까? ... future work
