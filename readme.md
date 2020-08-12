@@ -9,6 +9,7 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
+- 2020.08.12 [Recent Advances in Neural Question Generation](notes/QG_Survey.md)
 - 2020.08.04 [SciREX: A Challenge Dataset for Document-Level Information Extraction](notes/SciREX.md)
 - 2020.08.05 [Big Bird: Transformers for Longer Sequences](notes/Big_Bird.md)
 - 2020.07.29 [G-DAUG: Generative Data Augmentation for Commonsense Reasoning (English)](notes/G-DAUG.md)
@@ -28,4 +29,5 @@
 - [Jiyeon Ham](https://github.com/hammouse)
 - [YJ Choe](https://github.com/yjchoe)
 - [Hoon Heo](https://github.com/Huffon)
+- [Hyunwoong Ko](https://github.com/gusdnd852)
 
