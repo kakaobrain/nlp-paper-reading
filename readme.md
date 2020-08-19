@@ -9,10 +9,11 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
+- 2020.08.19 [Hybrid Discriminative-Generative Training via Contrastive Learning (English)](notes/HDGE.md)
 - 2020.08.12 [Supervised Contrastive Learning](notes/Supervised_Contrastive_Learning.md)
 - 2020.08.12 [Recent Advances in Neural Question Generation](notes/QG_Survey.md)
 - 2020.08.04 [SciREX: A Challenge Dataset for Document-Level Information Extraction](notes/SciREX.md)
-- 2020.08.05 [Big Bird: Transformers for Longer Sequences](notes/Big_Bird.md)
+- 2020.08.04 [Big Bird: Transformers for Longer Sequences](notes/Big_Bird.md)
 - 2020.07.29 [G-DAUG: Generative Data Augmentation for Commonsense Reasoning (English)](notes/G-DAUG.md)
 - 2020.07.29 [Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks (English)](notes/Dont_Stop_Pretraining.md)
 - 2020.07.22 [Balancing Training for Multilingual NMT](notes/Balancing_Training_for_Multilingual_NMT.md)
