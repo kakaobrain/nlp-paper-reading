@@ -9,7 +9,7 @@ arXiv (2020)
 - [arXiv](https://arxiv.org/abs/2007.09070)
 - [Code](https://github.com/lhao499/HDGE)
 - [Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One](https://arxiv.org/abs/1912.03263)
-- [A Tutorial on Energy-Based Learning](A Tutorial on Energy-Based Learning)
+- [A Tutorial on Energy-Based Learning](http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf)
 - [On Discriminative vs. Generative Classifiers: A Comparison of Logistic Regression and Naive Bayes](https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf)
 
 ## Summary
