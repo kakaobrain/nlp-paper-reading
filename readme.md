@@ -9,6 +9,7 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
+- 2020.08.26 [Question and Answer Test-Train Overlap in Open-Domain Question Answering Datasets](notes/Question_and_Answer_Overlap.md)
 - 2020.08.19 [Hybrid Discriminative-Generative Training via Contrastive Learning (English)](notes/HDGE.md)
 - 2020.08.12 [Supervised Contrastive Learning](notes/Supervised_Contrastive_Learning.md)
 - 2020.08.12 [Recent Advances in Neural Question Generation](notes/QG_Survey.md)
