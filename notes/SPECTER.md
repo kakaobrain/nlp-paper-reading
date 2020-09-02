@@ -56,7 +56,6 @@ Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld
     - Triplet Loss
     
 ![](../images/SPECTER/loss.png)
-      
     - The L2 norm distance is used
     
 ![](../images/SPECTER/distance.png)
