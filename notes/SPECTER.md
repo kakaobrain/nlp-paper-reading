@@ -24,7 +24,7 @@ Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld
 
 ### Document Processing
 
-- 논문의 Title 과 Abstract 는 많은 정보를 내포하지만 ,이를 ~~주먹구구~~('off-the-shelf') 식으로 pretrained LM에 넣어주면 큰 의미가 없다 (see later)
+- 논문의 Title 과 Abstract 는 많은 정보를 내포하지만 ,이를 'off-the-shelf'으로 pretrained LM에 넣어주면 큰 의미가 없다 (see later)
 - 가령, Science Domain에서 SOTA를 달성한 [SciBERT](https://arxiv.org/pdf/1903.10676.pdf) (BERT*_base* + 1.18M Paper)
     - [ ]  기존 BERT 모델에 118만개의 페이퍼 (from Semantic Scholar, 18% CS, 82% BioMedic) 데이터를 Fine-tuned
     - [ ]  SciBERT Result
@@ -45,16 +45,18 @@ Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld
 
 ### Triplet
 
-- Each training instance is a triplet of papers : a **Query paper** $P^{Q}$, a **Positive paper** $P^{+}$ and a **Negative paper** $P^{-}$
+- Each training instance is a triplet of papers : a **Query paper (Q) **, a **Positive paper (P+) ** and a **Negative paper (P-)**
     - [ ]  Positive paper :  paper that is cited by Q
-    - [ ]  Negative paper : paper that is NOT cited by Q (*but could be cited by* $P^{+}$ )
+    - [ ]  Negative paper : paper that is NOT cited by Q (*but could be cited by P+ )
         1. Random Negative
             - Choose a random paper from the corpus
         2.  Hard Negative
             - A paper which is NOT cited by Query paper but IS cited by Positive paper
 - Loss Function
-    - $Triplet \: Loss\:\: = \: max{(d(P^{Q}, P^{+})-d(P^{Q},P^{-}) + m),\:0}$
-    - The L2 norm distance is used : $d(P^{A}, P^{B})=\left \| v_{A}-v_{B} \right \|_{2}$
+    - Triplet Loss
+      ![](../images/SPECTER/loss.png)
+    - The L2 norm distance is used
+      ![](../images/SPECTER/distance.png)
 
 ### Encoder & Data
 
@@ -74,7 +76,7 @@ Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld
         | Q1    | Citation 5 | Rand_Neg3 |
         ```
 
-- Encoder Input = **SciBERT( [CLS] Title  + [SEP] + Abstract)**, ~~rather than CONCAT[SciBERT(Title), SciBERT(Abstact)]~~
+- Encoder Input = **SciBERT( [CLS] Title  + [SEP] + Abstract)**
 - Use **[CLS] token** of the last layer for **final document embedding**
 - During inference, *no citations are required*
 
