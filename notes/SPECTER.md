@@ -52,11 +52,8 @@ Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld
             - Choose a random paper from the corpus
         2.  Hard Negative
             - A paper which is NOT cited by Query paper but IS cited by Positive paper
-- Triplet Loss 
-      ![](../images/SPECTER/loss.png)  
-      
-    - The L2 norm distance is used
-    
+- Triplet Loss with L2 distance  
+      ![](../images/SPECTER/loss.png)      
       ![](../images/SPECTER/distance.png)
 
 ### Encoder & Data
