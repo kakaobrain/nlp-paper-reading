@@ -9,6 +9,8 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
+
+- 2020.09.09 [Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation](notes/making_monolingual_sentence_embeddings_multilingual_using_knowledge_distillation.md)
 - 2020.09.02 [SPECTER: Document-level Representation Learning using Citation-informed Transformer](notes/SPECTER.md)
 - 2020.08.26 [Question and Answer Test-Train Overlap in Open-Domain Question Answering Datasets](notes/Question_and_Answer_Overlap.md)
 - 2020.08.19 [Hybrid Discriminative-Generative Training via Contrastive Learning (English)](notes/HDGE.md)
