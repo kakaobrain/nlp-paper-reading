@@ -31,17 +31,17 @@
 
 - 한 언어 안에서의 align 평가
 
-  ![image-20200909105300414](/Users/chloe/Documents/nlp-paper-reading/images/making_monolingual_sentence_embeddings_multilingual/table1.png)
+  ![image-20200909105300414](../images/making_monolingual_sentence_embeddings_multilingual/table1.png)
 
   - mBERT, XLM-R에 영어 nli-stsb만 학습시켜도 성능이 올라감 (로마자를 쓰지 않는 아랍어에서도)
   - Distillation을 했을 때 성능이 더 좋음
 
 - cross-lingual align 평가
 
-  ![image-20200909105430975](/Users/chloe/Documents/nlp-paper-reading/images/making_monolingual_sentence_embeddings_multilingual/table2.png)
+  ![image-20200909105430975](../images/making_monolingual_sentence_embeddings_multilingual/table2.png)
 
 #### BUCC
 
-![image-20200909105928171](/Users/chloe/Documents/nlp-paper-reading/images/making_monolingual_sentence_embeddings_multilingual/table3.png)
+![image-20200909105928171](../images/making_monolingual_sentence_embeddings_multilingual/table3.png)
 
 - LASER보다 성능이 낮은데, 본 모델은 similar meaning을 학습했지만 이는 similar meaning이 곧 exact translation을 의미하지는 않는다고 말하고 있다.
