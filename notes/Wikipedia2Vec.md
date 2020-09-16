@@ -21,7 +21,7 @@
 ### 1. word-based Skip Gram
 우리가 이미 알고 있는 단어와 단어 간의 Skip Gram Word2Vec을 학습한다. 
 <br><br>
-<img src="https://latex.codecogs.com/svg.latex?L_w = - \sum_{i=1}{\sum_{-c \leq j \leq c, j \neq 0}{\log P(w_{i+j}|w_{i})}}" width=500>
+<img src="https://latex.codecogs.com/svg.latex?L_w=-\sum_{i=1}{\sum_{-c\leq%20j\leq%20c,%20j%20\neq%200}{\log%20p(w_{i+j}|w_{i})}}" width=500>
 <br><br>
 
 - i번째 단어를 주어졌을 때, 주변의 단어들, 즉 i+j번째 단어들을 예측한다.
@@ -30,7 +30,7 @@
 ### 2. Anchor Context Model
 Anchor Context Model은 Word와 Entity의 거리를 좁히는 Skip-Gram 모델이다. 
 <br><br>
-<img src="https://latex.codecogs.com/svg.latex?L_a = - \sum_{(e_i, Q) \in A}{\sum_{w_c \in Q}{\log P(w_c|e_i)}" width=500>
+<img src="https://latex.codecogs.com/svg.latex?L_a=-\sum_{(e_i,%20Q)\in%20A}{\sum_{w_c\in%20Q}{\log%20p(w_c|e_i)}" width=500>
 <br>
 
 - 하이퍼링크가 달린 단어를 Entity로 규정하고, Entity가 주어질 때, 앞 뒤의 단어들을 예측한다.
@@ -43,7 +43,7 @@ Link Graph Model은 Wikipedia Link Graph를 이용하여 연결된 Entity간의 
 이 그래프 관계를 이용해 가까운 참조관계의 엔티티를 예측한다.
 
 <br><br>
-<img src="https://latex.codecogs.com/svg.latex?L_e = - \sum_{e_i \in E}{\sum_{e_o \in C_{e_i}}{\log P(e_o|e_i)}" width=500>
+<img src="https://latex.codecogs.com/svg.latex?L_e=-\sum_{e_i\in%20E}{\sum_{e_o\in%20C_{e_i}}{\log%20p(e_o|e_i)}" width=500>
 <br>
 
 - E는 Vocab 내의 모든 엔티티들의 집합이다.
@@ -54,7 +54,7 @@ Link Graph Model은 Wikipedia Link Graph를 이용하여 연결된 Entity간의 
 위의 세가지 Loss를 모두 더해서 최종 Loss를 계산하고, 이 Loss를 Minimize하는 모델을 최종적으로 사용함
 
 <br><br>
-<img src="https://latex.codecogs.com/svg.latex?L = L_w + L_a + L_e" width=400>
+<img src="https://latex.codecogs.com/svg.latex?L=L_w+L_a+L_e" width=400>
 <br><br>
 
 - 추가로 같은 Wikipedia 내에서 동일한 엔티티의 하이퍼링크가 딱 한번만 등장하기 때문에, 페이지마다 엔티티 단어들의 하이퍼링크를 직접 만들었음
@@ -72,7 +72,7 @@ Link Graph Model은 Wikipedia Link Graph를 이용하여 연결된 Entity간의 
 
 <img src=https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/Wikipedia2Vec/result.png width=500>
 
-- 아래와 같은 방식으로 사용할 수 있다. get_entity 메서드와 get_word 메서드가 존재하고, 각각에 대해 검색 가능하다.
+- 아래와 같은 방식으로 사용할 수 있다. `get_entity()` 메서드와 `get_word()` 메서드가 존재하고, 각각에 대해 검색 가능하다.
 - [여기](https://wikipedia2vec.github.io/demo/) 에서 데모를 직접 해볼 수 있다.
 
 ```python
