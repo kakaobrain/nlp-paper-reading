@@ -9,7 +9,7 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
-
+- 2020.09.23 [Deep Double Descent](notes/Deep_Double_Descent.md)  
 - 2020.09.16 [Wikipedia2Vec](notes/Wikipedia2Vec.md)  
 - 2020.09.16 [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/wav2vec%202.0.md)
 - 2020.09.09 [Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation](notes/making_monolingual_sentence_embeddings_multilingual_using_knowledge_distillation.md)
