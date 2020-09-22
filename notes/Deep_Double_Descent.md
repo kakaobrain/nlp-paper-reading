@@ -19,8 +19,8 @@ ML에서의 아래 3가지 "conventional wisdom"에 대해 실험적 반론을 �
 
     ![](../images/DDD/figure1.png)
 
-- Interpolation threshold 구간 (where the model hits nearly zero training loss) 이후 model complexity를 계속 증가시키면 test loss가 다시 감소 (hence double descent)
-- 이런 Double Descent 현상을 Decision Tree와 같은 "simple ML model"과 Random Fourier Features, Fully-connected Neural Networks 와 같은 "simple neural network" 모델에서 관측
+- Interpolation threshold 구간 (_where the model hits nearly zero training loss_) 이후 model complexity를 계속 증가시키면 test loss가 다시 감소 (_hence double descent_)
+- 이런 Double Descent 현상을 **Decision Tree**와 같은 "_simple ML model_"과 **Random Fourier Features**, **Fully-connected Neural Networks** 와 같은 "_simple neural network_" 모델에서 관측
 
 ## 3. Deep Double Descent
 
@@ -53,7 +53,7 @@ ML에서의 아래 3가지 "conventional wisdom"에 대해 실험적 반론을 �
 
 ### 3.2 Epoch-wise Double Descent
 
-Model Complexity뿐만 아니라 Double Descent는 Training time (i.e. epoch)에 따라 발생
+Model Complexity뿐만 아니라 Double Descent는 Training time (i.e. _epoch_)에 따라 발생
 
 ![](../images/DDD/figure5.png)
 
