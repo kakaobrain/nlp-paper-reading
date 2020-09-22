@@ -1,7 +1,5 @@
-## Deep Double Descent:
-Where Bigger Models And More Data Hurt
+## Deep Double Descent: Where Bigger Models And More Data Hurt
 
-Harvard University and OpenAI
 
 ## References
 
@@ -49,9 +47,9 @@ ML에서의 아래 3가지 "conventional wisdom"에 대해 실험적 반론을 �
 
     이처럼 모델 사이즈에 따라 발생하는 Double Descent 현상은 아직 완벽히 이해하지 못했지만 다음과 같은 possible explanation 제안
 
-    > Informally, our intuition is that for model-sizes at the interpolation threshold, there is effectively only one model that fits the train data and this interpolating model is very sensitive to noise in the train set and/or model mis-specification. 
+    > _Informally, our intuition is that for model-sizes at the interpolation threshold, there is effectively only one model that fits the train data and this interpolating model is very sensitive to noise in the train set and/or model mis-specification._ 
     > 
-    > That is, since the model is just barely able to fit the train data, forcing it to fit even slightly-noisy or mis-specified labels will destroy its global structure, and result in high test error. However for over-parameterized models, there are many interpolating models that fit the train set, and SGD is able to find one that “memorizes” (or “absorbs”) the noise while still performing well on the distribution.
+    > _That is, since the model is just barely able to fit the train data, forcing it to fit even slightly-noisy or mis-specified labels will destroy its global structure, and result in high test error. However for over-parameterized models, there are many interpolating models that fit the train set, and SGD is able to find one that “memorizes” (or “absorbs”) the noise while still performing well on the distribution._
 
 ### 3.2 Epoch-wise Double Descent
 
