@@ -15,7 +15,7 @@ ML에서의 아래 3가지 "conventional wisdom"에 대해 실험적 반론을 �
 
 ## 2.  Prior Work
 
-- 앞서 [Mikhail Belkin et a](https://arxiv.org/abs/1812.11118)l 논문에서 처음으로 **double descent** (DD) 현상 제시
+- 앞서 [Mikhail Belkin et a](https://arxiv.org/abs/1812.11118)l 논문에서 **double descent** 현상 제시
 
     ![](../images/DDD/figure1.png)
 
