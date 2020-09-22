@@ -1,5 +1,3 @@
-# 200923
-
 ## Deep Double Descent:
 Where Bigger Models And More Data Hurt
 
@@ -7,11 +5,9 @@ Harvard University and OpenAI
 
 ## References
 
-- [[arXiv](https://arxiv.org/pdf/1912.02292.pdf)]
+- [arXiv](https://arxiv.org/pdf/1912.02292.pdf)
 
 ## 1.  Summary
-
----
 
 ML에서의 아래 3가지 "conventional wisdom"에 대해 실험적 반론을 제시
 
@@ -21,14 +17,12 @@ ML에서의 아래 3가지 "conventional wisdom"에 대해 실험적 반론을 �
 
 ## 2.  Prior Work
 
----
-
 - 앞서 [Mikhail Belkin et a](https://arxiv.org/abs/1812.11118)l 논문에서 처음으로 **double descent** (DD) 현상 제시
 
     ![](../images/DDD/figure1.png)
 
 - Interpolation threshold 구간 (where the model hits nearly zero training loss) 이후 model complexity를 계속 증가시키면 test loss가 다시 감소 (hence double descent)
-- 이런 DD 현상을 Decision Tree와 같은 "simple ML model"과 Random Fourier Features, Fully-connected Neural Networks 와 같은 "simple neural network" 모델에서 관측
+- 이런 Double Descent 현상을 Decision Tree와 같은 "simple ML model"과 Random Fourier Features, Fully-connected Neural Networks 와 같은 "simple neural network" 모델에서 관측
 
 ## 3. Deep Double Descent
 
@@ -55,9 +49,9 @@ ML에서의 아래 3가지 "conventional wisdom"에 대해 실험적 반론을 �
 
     이처럼 모델 사이즈에 따라 발생하는 Double Descent 현상은 아직 완벽히 이해하지 못했지만 다음과 같은 possible explanation 제안
 
-    > *Informally, our intuition is that for model-sizes at the interpolation threshold, there is effectively only one model that fits the train data and this interpolating model is very sensitive to noise in the train set and/or model mis-specification. 
-
-    That is, since the model is just barely able to fit the train data, forcing it to fit even slightly-noisy or mis-specified labels will destroy its global structure, and result in high test error. However for over-parameterized models, there are many interpolating models that fit the train set, and SGD is able to find one that “memorizes” (or “absorbs”) the noise while still performing well on the distribution.*
+    > Informally, our intuition is that for model-sizes at the interpolation threshold, there is effectively only one model that fits the train data and this interpolating model is very sensitive to noise in the train set and/or model mis-specification. 
+    > 
+    > That is, since the model is just barely able to fit the train data, forcing it to fit even slightly-noisy or mis-specified labels will destroy its global structure, and result in high test error. However for over-parameterized models, there are many interpolating models that fit the train set, and SGD is able to find one that “memorizes” (or “absorbs”) the noise while still performing well on the distribution.
 
 ### 3.2 Epoch-wise Double Descent
 
