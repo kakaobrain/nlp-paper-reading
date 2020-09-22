@@ -24,7 +24,7 @@ Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld
 
 ### Document Processing
 
-- 논문의 Title 과 Abstract 는 많은 정보를 내포하지만 ,이를 'off-the-shelf'으로 pretrained LM에 넣어주면 큰 의미가 없다 (see later)
+- 논문의 Title 과 Abstract 는 많은 정보를 내포하지만 ,이를 'off-the-shelf' 식으로 pretrained LM에 넣어주면 큰 의미가 없다
 - 가령, Science Domain에서 SOTA를 달성한 [SciBERT](https://arxiv.org/pdf/1903.10676.pdf) (BERT*_base* + 1.18M Paper)
     - [ ]  기존 BERT 모델에 118만개의 페이퍼 (from Semantic Scholar, 18% CS, 82% BioMedic) 데이터를 Fine-tuned
     - [ ]  SciBERT Result
@@ -52,10 +52,8 @@ Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld
             - Choose a random paper from the corpus
         2.  Hard Negative
             - A paper which is NOT cited by Query paper but IS cited by Positive paper
-- Loss Function
-    - Triplet Loss
-      ![](../images/SPECTER/loss.png)
-    - The L2 norm distance is used
+- Triplet Loss with L2 distance  
+      ![](../images/SPECTER/loss.png)      
       ![](../images/SPECTER/distance.png)
 
 ### Encoder & Data

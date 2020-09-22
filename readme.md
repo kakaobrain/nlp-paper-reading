@@ -9,6 +9,11 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
+
+- 2020.09.16 [Wikipedia2Vec](notes/Wikipedia2Vec.md)  
+- 2020.09.16 [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/wav2vec%202.0.md)
+- 2020.09.09 [Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation](notes/making_monolingual_sentence_embeddings_multilingual_using_knowledge_distillation.md)
+- 2020.09.02 [SPECTER: Document-level Representation Learning using Citation-informed Transformer](notes/SPECTER.md)
 - 2020.08.26 [Question and Answer Test-Train Overlap in Open-Domain Question Answering Datasets](notes/Question_and_Answer_Overlap.md)
 - 2020.08.19 [Hybrid Discriminative-Generative Training via Contrastive Learning (English)](notes/HDGE.md)
 - 2020.08.12 [Supervised Contrastive Learning](notes/Supervised_Contrastive_Learning.md)
@@ -33,4 +38,5 @@
 - [YJ Choe](https://github.com/yjchoe)
 - [Hoon Heo](https://github.com/Huffon)
 - [Hyunwoong Ko](https://github.com/gusdnd852)
-
+- [Gunsoo Han](https://github.com/robinsongh381)
+- [Soohwan Kim](https://github.com/sooftware)
