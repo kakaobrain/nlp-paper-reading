@@ -9,6 +9,7 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
+- 2020.09.29 [Pattern-Exploiting Training](notes/PET.md)
 - 2020.09.23 [Can Unconditional Language Models Recover Arbitrary Sentences?](notes/can_unconditional_language_models_recover_arbitrary_sentences.md)
 - 2020.09.23 [Deep Double Descent](notes/Deep_Double_Descent.md)  
 - 2020.09.16 [AMBERT](notes/AMBERT.md)  
