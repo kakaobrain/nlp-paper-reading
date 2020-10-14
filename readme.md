@@ -9,6 +9,7 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
+- 2020.10.14 [one model many languages meta-learning for multilingual text-to-speech](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/One%20Model%2C%20Many%20Languages:%20Meta-learning%20for%20Multilingual%20Text-to-Speech.md)
 - 2020.09.29 [Pattern-Exploiting Training (English)](notes/PET.md)
 - 2020.09.23 [Can Unconditional Language Models Recover Arbitrary Sentences?](notes/can_unconditional_language_models_recover_arbitrary_sentences.md)
 - 2020.09.23 [Deep Double Descent](notes/Deep_Double_Descent.md)  
