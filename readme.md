@@ -10,7 +10,7 @@
 
 ## Papers
 - 2020.10.14 [The Dialogue Dodecathlon: Open-Domain Knowledge and Image Grounded Conversational Agents](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/The_Dialogue_Decathlon.md#the-dialogue-dodecathlon-open-domain-knowledge-and-image-grounded-conversational-agents)
-- 2020.10.14 [One model many languages meta-learning for multilingual text-to-speech](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/One%20Model%2C%20Many%20Languages:%20Meta-learning%20for%20Multilingual%20Text-to-Speech.md)
+- 2020.10.14 [One model many languages meta-learning for multilingual text-to-speech](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/One-Model-Many-Languages.md)
 - 2020.09.29 [Pattern-Exploiting Training (English)](notes/PET.md)
 - 2020.09.23 [Can Unconditional Language Models Recover Arbitrary Sentences?](notes/can_unconditional_language_models_recover_arbitrary_sentences.md)
 - 2020.09.23 [Deep Double Descent](notes/Deep_Double_Descent.md)  
