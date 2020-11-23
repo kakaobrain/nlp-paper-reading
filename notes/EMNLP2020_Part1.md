@@ -17,52 +17,51 @@
 
 ### Linguistic Difference
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled1.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%201.png" width="70%">
 
 ### Aim of Paper
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled2.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%202.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled3.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%203.png" width="70%">
 
 ### Model
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled4.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%204.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled5.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%205.png" width="70%">
 
 ### Response Contrastive Loss
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled6.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%206.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled7.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%207.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled8.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%208.png" width="70%">
 
 ### Finetune
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled9.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%209.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 10.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2010.png" width="70%">
 
 ## Intent Classification (151 classes)
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 11.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2011.png" width="70%">
 
 ### Dialog Act Classification (13 classes)
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 12.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2012.png" width="70%">
 
 ### Dialogue State Tracking
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 13.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2013.png" width="70%">
 
 ### Response Selection
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 14.png)
-
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2014.png" width="70%">
 ---
 
 ## Multi-turn Response Selection using Dialogue Dependency Relations
@@ -84,27 +83,27 @@
 
 ### Turns are dependent
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 15.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2015.png" width="70%">
 
 ### Concatenation could be a problem
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 16.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2016.png" width="70%">
 
 ### Main Contributions
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 17.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2017.png" width="70%">
 
 ### Dialogue Extraction
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 18.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2018.png" width="70%">
 
 ### Thread Encoder
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 19.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2019.png" width="70%">
 
 ### SOTA and Comparative
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 20.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2020.png" width="70%">
 
 ---
 
@@ -125,33 +124,33 @@
 - Yet, their **complexity** hinders the application of the models in real systems
 - Propose a **simple** structure yet can effectively leverage **conversation contexts**
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 21.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2021.png" width="70%">
 
 ### Auxilary Tasks
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 22.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2022.png" width="70%">
 
 ### Model
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 23.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2023.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 24.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2024.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 25.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2025.png" width="70%">
 
 ### Loss Function
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 26.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2026.png" width="70%">
 
 ### Result
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 27.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2027.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 28.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2028.png" width="70%">
 
 ### Further Analysis on Auxiliary Tasks
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 29.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2029.png" width="70%">
 
 ### Q1 & Q2
 
@@ -159,11 +158,11 @@
 - (b) Require at least 7 encoders
 - (c) Require at least 4 encoders
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 30.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2030.png" width="70%">
 
 ### Q3
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 31.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2031.png" width="70%">
 
 ---
 
@@ -186,27 +185,27 @@
 
 ### Aspect Robustness Test Set (ARTS)
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 32.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2032.png" width="70%">
 
 ### Strategy
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 33.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2033.png" width="70%">
 
 ### Data Statistics
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 34.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2034.png" width="70%">
 
 ### Result
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 35.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2035.png" width="70%">
 
 ### Effectively Model the Aspect
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 36.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2036.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 37.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2037.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 38.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2038.png" width="70%">
 
 ---
 
@@ -222,18 +221,18 @@
 
 ### Summary
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 39.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2039.png" width="70%">
 
 ### Dataset
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 40.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2040.png" width="70%">
 
 ### Auxiliary Tasks
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 41.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2041.png" width="70%">
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 42.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2042.png" width="70%">
 
 ### Result
 
-![](https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled 43.png)
+<img src="https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/EMNLP_2020/Part1/Untitled%2043.png" width="70%">
