@@ -9,6 +9,7 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
+- 2020.11.08 [EMNLP 2020 Paper Review Part1](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/EMNLP2020_Part1.md)
 - 2020.10.28 [What Have We Achieved on Text Summarization?](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/summarization_achievement.md)
 - 2020.10.28 [Revisiting Modularized Multilingual NMT to Meet Industrial Demands](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Revisiting_Modularized_Multilingual_NMT_to_Meet_Industrial_Demands.md)
 - 2020.10.14 [The Dialogue Dodecathlon: Open-Domain Knowledge and Image Grounded Conversational Agents](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/The_Dialogue_Decathlon.md#the-dialogue-dodecathlon-open-domain-knowledge-and-image-grounded-conversational-agents)
