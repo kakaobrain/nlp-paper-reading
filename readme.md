@@ -46,6 +46,6 @@
 - [Jiyeon Ham](https://github.com/hammouse)
 - [YJ Choe](https://github.com/yjchoe)
 - [Hoon Heo](https://github.com/Huffon)
-- [Hyunwoong Ko](https://github.com/gusdnd852)
+- [Hyunwoong Ko](https://github.com/hyunwoongko)
 - [Gunsoo Han](https://github.com/robinsongh381)
 - [Soohwan Kim](https://github.com/sooftware)
