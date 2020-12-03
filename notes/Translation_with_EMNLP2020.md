@@ -64,7 +64,7 @@ A smoothed representation makes the model more robust and is less sensitive to n
 ![image](https://user-images.githubusercontent.com/38183241/100961301-74a6f580-3565-11eb-9181-cd6efc511778.png)
 <br><br><br>
 
-## 번외편 (+α) : Multilingual Machine Translation (MMT)를 잘하기 위해서는?
+## 번외편 (+α) : Multilingual Machine Translation (MMT)를 진짜 잘하기 위해서는?
 ### [Beyond English-Centric Multilingual Machine Translation](https://arxiv.org/abs/2010.11125)
 - English Centric한 데이터가 아니라, non-English ↔ non-English 데이터가 많아야 한다.
 <br>
