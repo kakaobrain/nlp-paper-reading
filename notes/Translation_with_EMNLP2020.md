@@ -35,13 +35,13 @@
 
 ### Shallow-to-Deep Training for Neural Machine Translation (본 논문)
 ![image](https://user-images.githubusercontent.com/38183241/100953327-b7f96800-3555-11eb-80d2-77d34c18dac9.png)
-- Emb-Similarity : 인코더가 깊어질수록 입력 임베딩과 i번째 Layer의 출력값이 비슷하지 않게 됨 → 입력 표현을 더 다양하게 변화시킨다.
+- Emb-Similarity : 인코더가 깊어질수록 입력 임베딩과 i번째 Layer의 출력값이 비슷하지 않게 됨 → 입력 표현을 더 많이 변화시킨다.
 - Adjcent-Similarity : 그러나 인코더가 깊어질수록 i번째 Layer의 출력과 i-1번째 Layer의 출력은 거의 비슷하다 → 인접한 레이어들의 표현이 거의 비슷하다.
 - Inter-Similarity : 인코더가 깊어질수록 각 포지션의 Representation과 이들의 평균 Representation이 비슷해진다. → Noisy한 입력에 강해진다.
 ```
 # Inter-Similarity
 This can be seen as smoothing the representations over different positions. 
-A smoothed representation makes the modelmore robust and is less sensitive to noisy input
+A smoothed representation makes the model more robust and is less sensitive to noisy input
 ```
 - 인코더가 깊을수록 표현력이 강해지고, Noisy한 입력에 대해 robust해진다는 것은 알겠다. 그런데 학습이 너~무 오래걸린다.
 ![image](https://user-images.githubusercontent.com/38183241/100954490-fe4fc680-3557-11eb-8993-8a66c17fb73f.png)
@@ -64,7 +64,7 @@ A smoothed representation makes the modelmore robust and is less sensitive to no
 ![image](https://user-images.githubusercontent.com/38183241/100961301-74a6f580-3565-11eb-9181-cd6efc511778.png)
 <br><br><br>
 
-## 번외편(+α) : Multilingual Machine Translation (MMT)를 잘하기 위해서는?
+## 번외편 (+α) : Multilingual Machine Translation (MMT)를 잘하기 위해서는?
 ### [Beyond English-Centric Multilingual Machine Translation](https://arxiv.org/abs/2010.11125)
 - English Centric한 데이터가 아니라, non-English ↔ non-English 데이터가 많아야 한다.
 ![image](https://user-images.githubusercontent.com/38183241/100961723-48d83f80-3566-11eb-8734-9c9b4e4e5d60.png)
