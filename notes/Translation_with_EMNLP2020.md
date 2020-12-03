@@ -12,7 +12,7 @@
 ![image](https://user-images.githubusercontent.com/38183241/100951460-eecd7f00-3551-11eb-8e7d-07d4f0e97f2b.png)
 ![image](https://user-images.githubusercontent.com/38183241/100952560-1e7d8680-3554-11eb-9919-ae05ed79172c.png)
 - 인코더 레이어의 마지막 단에 Fertility Classifier를 붙여서 각 토큰을 디코더의 입력으로 몇번 사용할지 결정
-- 디코더에 있던 Casual Attention을 제거함 (디코더가 모든 입력 토큰을 볼 수 있음)
+- 디코더에 있던 어텐션 마스킹을 제거함 (디코더가 모든 입력 토큰을 볼 수 있음)
 - Non Auto-regressive하기 때문에 빔서치 등의 방법을 사용하지 않고 이로 인해 디코딩이 훨씬 빠름.
 - 성능이 Auto-regressive에 비해 소폭 하락하였으나 속도 대비 굉장히 좋은 성능을 보여줌.
 <br><br><br>
