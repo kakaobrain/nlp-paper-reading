@@ -73,30 +73,36 @@ A smoothed representation makes the model more robust and is less sensitive to n
 
 - 본 논문에서는 LASER와 FAISS를 이용하여 대규모 병렬 데이터를 구축할 수 있었다고 한다.
 <br>
+
 ![image](https://user-images.githubusercontent.com/38183241/100961835-7f15bf00-3566-11eb-954a-c53cb07bdfde.png)
 <br>
 
 - 핵심 1 : 고품질의 데이터 큐레이팅이 필요하다.
 <br>
+
 ![image](https://user-images.githubusercontent.com/38183241/100962131-1844d580-3567-11eb-81a7-19878b8fd522.png)
 <br>
 
 - 핵심 2 : 적은 리소스의 언어 데이터를 크게 늘려야한다.
 <br>
+
 ![image](https://user-images.githubusercontent.com/38183241/100962182-33afe080-3567-11eb-9895-de0203307379.png)
 <br><br><br>
 
 ### [Complete Multilingual Neural Machine Translation](https://arxiv.org/abs/2010.10239)
 <br>
+
 - Low resource한 언어들 사이에서도 Zero-shot이 아니라 Complete Translation이 되어야한다.
 ![image](https://user-images.githubusercontent.com/38183241/100962469-b2a51900-3567-11eb-9492-c23e8f9d4651.png)
 <br>
 
 - 아래 같이 3중 병렬 데이터가 있으면, 영어를 제외한 병렬 데이터를 만들어야한다.
 <br>
+
 ![image](https://user-images.githubusercontent.com/38183241/100962571-e7b16b80-3567-11eb-83b8-1049fced8d08.png)
 <br>
 
 - Multilingual Translation에서 Pivoting보다 Complete Translation을 하는 것이 더 좋은 성능을 보일 수 있다.
 <br>
+
 ![image](https://user-images.githubusercontent.com/38183241/100962750-4a0a6c00-3568-11eb-8f4a-a75f281f88ea.png)
