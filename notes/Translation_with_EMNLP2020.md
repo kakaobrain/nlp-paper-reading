@@ -68,6 +68,7 @@ A smoothed representation makes the model more robust and is less sensitive to n
 ### [Beyond English-Centric Multilingual Machine Translation](https://arxiv.org/abs/2010.11125)
 - English Centric한 데이터가 아니라, non-English ↔ non-English 데이터가 많아야 한다.
 <br>
+
 ![image](https://user-images.githubusercontent.com/38183241/100961723-48d83f80-3566-11eb-8734-9c9b4e4e5d60.png)
 <br>
 
