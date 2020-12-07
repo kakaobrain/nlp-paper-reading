@@ -11,7 +11,7 @@
 ## Papers
 - 2020.12.03 [EMNLP 2020 Paper Reivew Part3 : Translation](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Translation_with_EMNLP2020.md)
 - 2020.11.22 [EMNLP 2020 Paper Review Part2 : Data_Papers](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/data_papers.md)
-- 2020.11.08 [EMNLP 2020 Paper Review Part1](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/EMNLP2020_Part1.md)
+- 2020.11.08 [EMNLP 2020 Paper Review Part1 : Dialogue](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/EMNLP2020_Part1.md)
 - 2020.10.28 [What Have We Achieved on Text Summarization?](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/summarization_achievement.md)
 - 2020.10.28 [Revisiting Modularized Multilingual NMT to Meet Industrial Demands](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Revisiting_Modularized_Multilingual_NMT_to_Meet_Industrial_Demands.md)
 - 2020.10.14 [The Dialogue Dodecathlon: Open-Domain Knowledge and Image Grounded Conversational Agents](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/The_Dialogue_Decathlon.md#the-dialogue-dodecathlon-open-domain-knowledge-and-image-grounded-conversational-agents)
