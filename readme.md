@@ -9,7 +9,7 @@
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## Papers
-- 2020.12.08 [ENMLP 2020 Paper Review Part5: Speech](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/EMNLP_Part5.md)
+- 2020.12.08 [EMNLP 2020 Paper Review Part5: Speech](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/EMNLP_Part5.md)
 - 2020.12.03 [EMNLP 2020 Paper Reivew Part4: Translation](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Translation_with_EMNLP2020.md)
 - 2020.11.22 [EMNLP 2020 Paper Review Part3: Data_Papers](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/data_papers.md)
 - 2020.11.17 [EMNLP 2020 Paper Review Part2: Etc](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/EMNLP_Paper_Review_2.pdf)
