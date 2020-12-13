@@ -68,7 +68,7 @@ Link Graph Model은 Wikipedia Link Graph를 이용하여 연결된 Entity간의 
 <br><br>
 
 - KORE 데이터셋에서 다른 모델들 대비 가장 우수한 성적을 얻었으며, Hyperlink Generation(한번만 등장하는 것 방지)과 link graph 모델을 수행하지 않으면 성능이 떨어졌음
-- 또한 Word Embedding의 성능을 평가하기 위해 Word Analogy 태스크 (Athens, Greece) -> (Seoul, ?)를 위한 SEM, SYN이라는 데이터셋을 실험하였으며, Word Similarity 데이터셋인 SL과 WS 등의 데이터셋에서도 성능을 측정했는데 fastText 등에 비해 우수했다.
+- 또한 Word Embedding의 성능을 평가하기 위해 Word Analogy 태스크 (Athens, Greece) -> (Seoul, ?)를 위해 Semantic(SEM), Syntactic(SYN) 성능에 대한 실험을 하였으며, Word Similarity 데이터셋인 SL과 WS 등의 데이터셋에서도 성능을 측정했는데 fastText 등에 비해 우수했다.
 
 <img src=https://github.com/kakaobrain/nlp-paper-reading/blob/master/images/Wikipedia2Vec/result.png width=500>
 
