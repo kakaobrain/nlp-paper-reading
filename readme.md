@@ -12,7 +12,7 @@
 
 ## Papers
 
-- 2020.12.08 [Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/pixel-bert.md)
+- 2020.12.22 [Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/pixel-bert.md)
 - 2020.12.08 [If beam search is the answer, what was the question?](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/beam_search.md)
 - 2020.12.08 [EMNLP 2020 Paper Review Part5: Speech](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/EMNLP_Part5.md)
 - 2020.12.03 [EMNLP 2020 Paper Reivew Part4: Translation](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Translation_with_EMNLP2020.md)
