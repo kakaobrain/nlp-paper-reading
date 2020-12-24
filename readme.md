@@ -11,7 +11,8 @@
 <br>
 
 ## Papers
-
+- 2020.12.22 [When BERT Plays the Lottery, All Tickets Are Winning](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/when_bert_plays_the_lottery_all_tickets_are_winning.md)
+- 2020.12.22 [Attention is Not Only a Weight: Analyzing Transformers with Vector Norm](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/attention_is_not_only_a_weight.md)
 - 2020.12.22 [Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/pixel-bert.md)
 - 2020.12.08 [If beam search is the answer, what was the question?](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/beam_search.md)
 - 2020.12.08 [EMNLP 2020 Paper Review Part5: Speech](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/EMNLP_Part5.md)
