@@ -12,11 +12,10 @@
 - [arXiv](https://arxiv.org/abs/2002.04745)
 
 ### Layer Normalization
+![image](https://user-images.githubusercontent.com/38183241/103609599-882cee00-4f61-11eb-81ea-49a989c3f9a6.png)
 - Transformer 학습의 핵심 요소인 Layer Normalization
 - 기본적으로 Batch Normalization과 비슷히지만, 적용되는 Dimension이 다름.
 - 시퀀스 처리에 보다 적합한 Normalization 기법임.
-
-![](https://i1.wp.com/mlexplained.com/wp-content/uploads/2018/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-01-11-11.48.12.png?resize=1024%2C598)
 
 ### Post LN vs Pre LN
 - 일반적으로 우리가 알고 있는 Transformer는 Post LN (Multi-head Attention과 Skip Connection 이후에 Normalization을 진행)의 형태를 띔.
