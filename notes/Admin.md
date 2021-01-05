@@ -66,7 +66,7 @@ t_warmup을 4000으로 설정하면 학습이 잘 진행됨.
 - 이를 이해하기 위해 3가지 lemma가 등장함.
   - lemma-1 : gaussian distribution을 따르는 벡터 X가 존재할 때, ReLU(X)의 L2 norm의 기댓값은 1/2 * (σ^2) * d가 됨.
   - lemma-2 : lemma-1에 의하면 Post LN의 모든 레이어에 대해 최총 출력 기댓값은 3/2 d가 됨. (layer와 무관)
-  그러나 Pre LN의 경우 (1 + l/2) <= 기댓값 <= (1 + 3l/2)가 됨.
+  그러나 Pre LN의 경우 (1 + l/2) <= 기댓값 <= (1 + 3l/2)가 됨. (여기서 l은 layer임)
   - lemma-3 : Layer Normalization이 걸리는 Gradient는 X의 norm에 반비례가 됨. (||J_ln|| = sqrt(d) / ||x||)
 - (lemma와 Theorem에 대한 내용은 Appendix에 유도식이 자세하게 나오니 관심 있으시면 보시길...)
 - 즉, **Pre LN은 layer가 깊어질 수록 X의 norm이 커지는데, Layer norm이 걸리는 Gradient는 그와 반비례이기 때문에, Layer가 깊어질 수록 Gradient가 작아짐.**
@@ -198,7 +198,7 @@ t_warmup을 4000으로 설정하면 학습이 잘 진행됨.
 ![image](https://user-images.githubusercontent.com/38183241/103607260-cf17e500-4f5b-11eb-80d4-9116e325cc0f.png)
 - 관련해서 레딧을 뒤지다가 발견한건데, 이 메커니즘이 이 논문에서 처음 제안한 것은 아닌 것 같음.
 - CNN도 Transformer와 유사하게 BN + Residual Connection 구조를 사용했기 때문에 Admin과 같은 접근법이 가능. (ReZero가 먼저 나왔다.)
-- 이 논문에서는 성능이나 Convergence 여부보다는 속도에 초점을 맞추고 개선을 했다고 주장하는 것 같음. (CNN은 깊어도 잘 수렴하니까..?)
+- 이 논문에서는 성능이나 Convergence 여부보다는 속도에 초점을 맞추고 개선했다고 주장하는 것 같음. (CNN은 깊어도 잘 수렴하니까..?)
 - 이 ReZero라는 논문이 사용한 기법과 Admin Initialization이 매우 유사해보인다.
 
 ![image](https://user-images.githubusercontent.com/38183241/103607421-333aa900-4f5c-11eb-8a15-80234cdf85c0.png)
