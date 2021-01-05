@@ -120,7 +120,7 @@ t_warmup을 4000으로 설정하면 학습이 잘 진행됨.
 - β는 residual branch와 short cut branch 출력 값의 크기 비율을 의미하고, 위는 그 비율을 시각화 한 자료임.
 - Post LN은 Pre LN보다 β가 훨씬 크게 학습 됨. 즉, Post LN은 residual branch(= f(x))가 큰 영향을 미침.
 - 그에 비해 Pre LN은 residual branch가 영향을 덜 미치게 됨. (It is harder for Pre-LN layer to depend too much on their residual branches)
-- **Residual Branch에 더 많이 의존하면, 모델이 더 높은 포텐을 가지가 되지만, 당연하세도 파라미터 변화에 의한 값의 변동이 커진다. (output change가 커진다.)** (불안해진다)
+- **Residual Branch에 더 많이 의존하면, 모델이 더 높은 포텐을 가지게 되지만, 당연하게도 파라미터 변화에 의한 값의 변동이 커진다. (output change가 커진다.)** (불안해진다)
 (Although depending more on residual branches allows the model to have a larger potential, it amplifies the fluctuation brought by parameter changes.)
 
 ![image](https://user-images.githubusercontent.com/38183241/103605166-8873bc00-4f56-11eb-87ed-4e6a6b0b7b5e.png)
