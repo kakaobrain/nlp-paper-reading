@@ -123,9 +123,6 @@ t_warmup을 4000으로 설정하면 학습이 잘 진행됨.
 - **Residual Branch에 더 많이 의존하면, 모델이 더 높은 포텐을 가지게 되지만, 당연하게도 파라미터 변화에 의한 값의 변동이 커진다. (output change가 커진다.)** (불안해진다)
 (Although depending more on residual branches allows the model to have a larger potential, it amplifies the fluctuation brought by parameter changes.)
 
-![image](https://user-images.githubusercontent.com/38183241/103605166-8873bc00-4f56-11eb-87ed-4e6a6b0b7b5e.png)
-- 차이는 MLP로 이어지는 부분에서 크게 발생하는 것으로 보이는데 (추측), Residual Branch만 Normalization 하는 것과, Skip Connection 부분까지 Normalization 해주는 것의 차이가 있음.
-
 ![image](https://user-images.githubusercontent.com/38183241/103600936-f070d500-4f4b-11eb-9471-422533a4ae4d.png)
 - 길게 설명되어 있는데, 핵심은 `Var[변화 이전(x,W) - 변화 이후(x,W*)]`의 값 차이를 비교할 때, Post LN은 O(N), Pre LN은 O(log N)이라는 것임.
 - Pre LN의 경우 파라미터 변동 이전과 이후의 차이가 적고, Post LN은 변동 이전과 이후의 차이가 크다. 
