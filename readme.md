@@ -11,7 +11,7 @@
 <br>
 
 ## Papers
-- 2021.05.19 [Extracting Training Data from Large Language Models](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Extracting_Training_Data_from_Large_Language_Models.pdf)
+- 2021.01.19 [Extracting Training Data from Large Language Models](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Extracting_Training_Data_from_Large_Language_Models.pdf)
 - 2021.01.05 [Admin Initialization : Understanding the Difficulty of Training Transformers](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Admin.md)
 - 2020.12.22 [When BERT Plays the Lottery, All Tickets Are Winning](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/when_bert_plays_the_lottery_all_tickets_are_winning.md)
 - 2020.12.22 [Attention is Not Only a Weight: Analyzing Transformers with Vector Norm](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/attention_is_not_only_a_weight.md)
