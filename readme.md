@@ -65,3 +65,4 @@
 - [Gunsoo Han](https://github.com/robinsongh381)
 - [Soohwan Kim](https://github.com/sooftware)
 - [Jiwoo Park](https://github.com/bernardscumm)
+- [Daejin Jo](https://github.com/twidddj)
