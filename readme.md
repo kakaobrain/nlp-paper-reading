@@ -11,6 +11,7 @@
 <br>
 
 ## Papers
+- 2021.02.02 [Practical Massively Parallel MCTS Applied to Molecular Design](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Practical_Massively_Parallel_MCTS_Applied_to_Molecular_Design.pdf)
 - 2021.01.26 [Conformer: Convolution-augmented Transformer for Speech Recognition](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/conformer.md)
 - 2021.01.19 [Extracting Training Data from Large Language Models](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Extracting_Training_Data_from_Large_Language_Models.pdf)
 - 2021.01.05 [Admin Initialization : Understanding the Difficulty of Training Transformers](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Admin.md)
