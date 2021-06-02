@@ -11,6 +11,8 @@
 <br>
 
 ## Papers
+- 2021.06.02 [ConSERT: A Contrastive Framework for Self-Supervised Sentence Representation Transfer](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/ConSERT.pdf)
+- 2021.03.15 [Transformer is All You Need Multimodal Multitask Learning with a Unified Transformer](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Transformer_is_All_You_Need_Multimodal_Multitask_Learning_with_a_Unified_Transformer.pdf)
 - 2021.02.02 [Practical Massively Parallel MCTS Applied to Molecular Design](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Practical_Massively_Parallel_MCTS_Applied_to_Molecular_Design.pdf)
 - 2021.01.26 [Conformer: Convolution-augmented Transformer for Speech Recognition](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/conformer.md)
 - 2021.01.19 [Extracting Training Data from Large Language Models](https://github.com/kakaobrain/nlp-paper-reading/blob/master/notes/Extracting_Training_Data_from_Large_Language_Models.pdf)
